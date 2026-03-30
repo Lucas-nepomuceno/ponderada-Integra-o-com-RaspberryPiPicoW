@@ -89,4 +89,11 @@ Content-Type: application/json
 }
 ```
 
-&emsp; Essa formatação é realizada pela função send_sensor_data(), que também é utilizada para o envio dos dados do sensor de temperatura. Nesse caso, porém, o ruído é tratado por meio de uma média móvel, garantindo maior estabilidade nas leituras.
+&emsp; Essa formatação é realizada pela função ``send_sensor_data()``, que também é utilizada para o envio dos dados do sensor de temperatura. Nesse caso, porém, o ruído é tratado por meio de uma média móvel, garantindo maior estabilidade nas leituras.
+
+## Bibliografia
+
+É necessário creditar alguns sites que foram importantes para o desenvolvimento deste firmware. Entre eles:
+1. https://docs.arduino.cc/built-in-examples/digital/Debounce/ --> Tutorial para a criação do Debounce do sensor de presença
+2. https://stackoverflow.com/questions/3677400/making-a-http-post-request-using-arduino --> Tutorial para fazer uma requisição POST em Arduino.
+
