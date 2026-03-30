@@ -53,7 +53,12 @@
 
 &emsp; Abaixo, apresenta-se um vídeo demonstrativo do sistema:
 
+<p>Vídeo 1 - Demonstração do Funcionamento do Sitema</p>
+
 [![Assista ao vídeo](https://img.youtube.com/vi/cwPcd_0YDRc/0.jpg)](https://www.youtube.com/watch?v=cwPcd_0YDRc)
+
+<p>Fonte: o autor (2026)</p>
+
 
 &emsp; No vídeo, é possível observar a interação entre o firmware e o backend. No terminal da Arduino IDE, o identificador da requisição (ID do dispositivo) é exibido juntamente com a mensagem padrão do servidor ("Sua requisição será processada em breve"). Paralelamente, no backend, é possível verificar o recebimento das requisições POST e, após breve processamento, sua persistência no banco de dados.
 
